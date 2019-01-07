@@ -1,0 +1,108 @@
+section {
+    width: 100%;
+    height: 768px;
+    background-color: rgba(175, 198, 245, 0.2); 
+}
+.dad section:nth-child(2){
+    width: 100%;
+    height: 256px;
+    background-color: #2543bd;
+}
+.dad section:nth-child(3){
+    width: 100%;
+    height: 768px;
+    background-color: #ffffff;
+}
+.dad section:nth-child(4){
+    width: 100%;
+    height: 768px;
+    background-color: rgba(175, 198, 245, 0.2);
+}
+.dad section:nth-child(5){
+    width: 100%;
+    height: 566px;
+    background-color: #2543bd;
+}
+.dad section:nth-child(6){
+    width: 100%;
+    height: 212px;
+    background-color: #ffffff;
+}
+.dad section:nth-child(7){
+    width: 100%;
+    height: 92px;
+    background-color: rgba(175, 198, 245, 0.2);
+}
+.dad section:nth-child(1) nav ul li:nth-child(1) figure img{
+    width: 33.6px;
+    height: 21.6px;
+    background-color: #6fd3ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.example-icon {
+    padding: 0 14px;
+  }
+    
+  .example-spacer {
+    flex: 1 1 auto;
+  } 
+  
+  .example-card {
+    display: inline-block;
+    margin: 12px;
+    max-width: 250px;
+  }
+    
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  
+  
+    
+  .aside-bar{
+    padding:  20px;
+  }
+  .example-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .example-container {
+    width: 100%;
+    height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5); 
+  }
+  
+  .example-sidenav-content {
+    display: block;
+    height: 100%;
+  }
+  
+  .example-sidenav {
+    padding: 20px;
+  }
+
+  */

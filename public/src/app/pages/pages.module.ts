@@ -23,6 +23,16 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
 
+
+
+
+
+
+// Material components
+import { MaterialModule } from './material.module';
+import { BrowserModule } from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 @NgModule({
     declarations: [
         PagesComponent,
@@ -43,7 +53,10 @@ import { PromesasComponent } from './promesas/promesas.component';
         SharedModule,
         PAGES_ROUTES,
         FormsModule,
-        ChartsModule
+        ChartsModule,
+        BrowserModule,
+        BrowserAnimationsModule,
+        MaterialModule
     ]
 })
 export class PagesModule { }
