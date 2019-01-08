@@ -1,43 +1,71 @@
-section {
+.dad div:nth-child(1) {
     width: 100%;
     height: 768px;
-    background-color: rgba(175, 198, 245, 0.2); 
+	background-color: rgba(175, 198, 245, 0.2);
+	background: red;
 }
-.dad section:nth-child(2){
+.dad div:nth-child(1) mat-toolbar {
+	position: relative;
+	top: 55px;
+}
+.dad div:nth-child(1) mat-toolbar mat-toolbar-row{
+	background: purple;
+	width: 75%;
+	margin-left: 12%;
+}
+.dad div:nth-child(1) mat-toolbar button{
+	margin-left: 35px;
+}
+.dad div:nth-child(1) mat-toolbar button:nth-child(1) figure{
+	margin-top: 25px;
+	display: inline-block;
+}
+.dad div:nth-child(1) mat-toolbar button:nth-child(1) span{
+	margin-left: -25px;
+}
+
+.dad div:nth-child(1) mat-toolbar button:nth-child(4),
+.dad div:nth-child(1) mat-toolbar button:nth-child(5){
+	background: black;
+
+}
+
+.dad div:nth-child(2){
     width: 100%;
     height: 256px;
     background-color: #2543bd;
 }
-.dad section:nth-child(3){
+
+.dad div:nth-child(3){
     width: 100%;
     height: 768px;
     background-color: #ffffff;
 }
-.dad section:nth-child(4){
+
+.dad div:nth-child(4){
     width: 100%;
     height: 768px;
     background-color: rgba(175, 198, 245, 0.2);
 }
-.dad section:nth-child(5){
+
+.dad div:nth-child(5){
     width: 100%;
     height: 566px;
     background-color: #2543bd;
 }
-.dad section:nth-child(6){
+
+.dad div:nth-child(6){
     width: 100%;
     height: 212px;
     background-color: #ffffff;
 }
-.dad section:nth-child(7){
+
+.dad div:nth-child(7){
     width: 100%;
     height: 92px;
     background-color: rgba(175, 198, 245, 0.2);
 }
-.dad section:nth-child(1) nav ul li:nth-child(1) figure img{
-    width: 33.6px;
-    height: 21.6px;
-    background-color: #6fd3ff;
-}
+
 
 
 
