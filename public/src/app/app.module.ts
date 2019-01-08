@@ -23,10 +23,10 @@ import { RegisterComponent } from './login/register.component';
 
 
 
-//simport {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 // Material components
-//import { MaterialModule } from './material.module';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -41,8 +41,8 @@ import { RegisterComponent } from './login/register.component';
     FormsModule,
     ReactiveFormsModule,
     ServiceModule,
-    //BrowserAnimationsModule,
-    //MaterialModule
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

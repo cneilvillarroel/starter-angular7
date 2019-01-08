@@ -1,136 +1,277 @@
-.dad div:nth-child(1) {
-    width: 100%;
-    height: 768px;
-	background-color: rgba(175, 198, 245, 0.2);
-	background: red;
+/* ---- Box estilos generales ---- */
+.dad{
+  width:100%;
 }
-.dad div:nth-child(1) mat-toolbar {
-	position: relative;
-	top: 55px;
+.dad > div{
+  width: 100%;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
 }
-.dad div:nth-child(1) mat-toolbar mat-toolbar-row{
-	background: purple;
-	width: 75%;
-	margin-left: 12%;
+.dad > div > h3{
+  width: 261px;
+  height: 80px;
+  font-size: 34px;
+  letter-spacing: 0.3px;
+  color: #00279c;
+  margin: 32px 0px 16px 10%;
 }
-.dad div:nth-child(1) mat-toolbar button{
-	margin-left: 35px;
-}
-.dad div:nth-child(1) mat-toolbar button:nth-child(1) figure{
-	margin-top: 25px;
-	display: inline-block;
-}
-.dad div:nth-child(1) mat-toolbar button:nth-child(1) span{
-	margin-left: -25px;
-}
-
-.dad div:nth-child(1) mat-toolbar button:nth-child(4),
-.dad div:nth-child(1) mat-toolbar button:nth-child(5){
-	background: black;
-
-}
-
-.dad div:nth-child(2){
-    width: 100%;
-    height: 256px;
-    background-color: #2543bd;
+.dad > div > p{
+  width: 290px;
+  height: 56px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 4%;
 }
 
-.dad div:nth-child(3){
-    width: 100%;
-    height: 768px;
-    background-color: #ffffff;
+/* ---- Box 1 ---- */
+.dad > div:nth-child(1) {
+  height: 700px;
+  background: rgba(175, 198, 245, 0.2);
+}
+.dad > div:nth-child(1) mat-toolbar,
+.dad > div:nth-child(7) mat-toolbar{
+  position: relative;
+  top: 32px;
+  background: transparent;
+}
+.dad > div:nth-child(1) mat-toolbar figure,
+.dad > div:nth-child(7) mat-toolbar figure{
+  width: 223.4px;
+  height: 32.8px;
+  margin: -15px 0px 15px 35px;
+}
+.dad > div:nth-child(1) mat-toolbar figure img,
+.dad > div:nth-child(7) mat-toolbar figure img{
+  width: 100%;
+}
+.dad > div:nth-child(1) > figure img{
+  width: 95%;
+  height: 289px;
+  object-fit: contain;
+  opacity: 0.8;
+  margin-top: 35px;
+}
+.dad > div:nth-child(1) h1{
+  width: 261px;
+  height: 84px;
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: #677897;
+  margin: 16px 0px 0px 35px;
+}
+.dad > div:nth-child(1) h1 strong{
+  font-weight: normal;
+}
+.dad > div:nth-child(1) p{
+  width: 95%;
+  height: 48px;
+  font-size: 0.8em;
+  font-family: Roboto;
+  line-height: 1.5;
+  color: #677897;
+  margin: 16px 5px;
+}
+.dad > div:nth-child(1) > div{
+  width: 95%;
+  margin: 32px 5px;
+  height: 80px;
+}
+.dad > div:nth-child(1) > div button{
+  width: 140px;
+  height: 48px;
+  background-color: #2543bd;
+  margin: 0px 4px; 
+}
+.dad > div:nth-child(1) > div button:nth-child(2){
+  background-color: rgba(98, 2, 238, 0);
+}
+.dad > div:nth-child(1) > div button span{
+  width: 126px;
+  height: 16px;
+  font-size: 13.8px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: 0.9px;
+  color: #ffffff;
+}
+.dad > div:nth-child(1) > div button:nth-child(2) span{
+    color: #00279c;
 }
 
-.dad div:nth-child(4){
-    width: 100%;
-    height: 768px;
-    background-color: rgba(175, 198, 245, 0.2);
+/* ---- Box 2 ---- */
+.dad > div:nth-child(2){
+  width: 100%;
+  height: 216px;
+  background-color: #2543bd;
 }
-
-.dad div:nth-child(5){
-    width: 100%;
-    height: 566px;
-    background-color: #2543bd;
+.dad > div:nth-child(2) h4{
+  width: 84%;
+  height: 48px;
+  position: relative;
+  top: 48px;
+  left: 7%;
+  font-size: 19.8px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: #ffffff;
 }
-
-.dad div:nth-child(6){
-    width: 100%;
-    height: 212px;
-    background-color: #ffffff;
+.dad > div:nth-child(2) .slider-banks{
+   height: 40px;
+   width: 84%;
+   position: relative;
+   top: 80px;
+   left: 7%;
 }
-
-.dad div:nth-child(7){
-    width: 100%;
-    height: 92px;
-    background-color: rgba(175, 198, 245, 0.2);
+.dad > div:nth-child(2) .slider-banks button{
+  width: 50px;
+  height: 50px;
+  color: white;
+  float: left;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.example-icon {
-    padding: 0 14px;
-  }
-    
-  .example-spacer {
-    flex: 1 1 auto;
-  } 
-  
-  .example-card {
-    display: inline-block;
-    margin: 12px;
-    max-width: 250px;
-  }
-    
-  .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-  }
-  
-  
-    
-  .aside-bar{
-    padding:  20px;
-  }
-  .example-container {
-    width: 100%;
+.dad > div:nth-child(2) .slider-banks button:nth-child(2){
+  float: right;
+}
+.dad > div:nth-child(2) .slider-banks button mat-icon{
+  font-size: 40px;
+  margin-right: 12px;
+}
+.dad > div:nth-child(2) .slider-banks > div{
+    width: 70%;
     height: 100%;
-  }
-  
-  .example-container {
-    width: 100%;
-    height: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.5); 
-  }
-  
-  .example-sidenav-content {
-    display: block;
-    height: 100%;
-  }
-  
-  .example-sidenav {
-    padding: 20px;
-  }
+    position: relative;
+    top: 7px;
+    left: 35px;
+}
+.dad > div:nth-child(2) .slider-banks > div span{
+  font-size: 1.7em;
+  font-weight: bold;
+  margin: 0px 5px;
+  line-height: 40px;
+  float: left;
+  color: #ffffff;
+}
+.dad > div:nth-child(2) .slider-banks > div span:first-child{
+  margin-left: -25px;
+}
 
-  */
+/* ---- Box 3 ---- */
+.dad > div:nth-child(3){
+  width: 100%;
+  height: 504px;
+  background-color: #ffffff;
+}
+.dad > div:nth-child(3) > figure img{
+  width: 311px;
+  height: 224px;
+  object-fit: contain;
+  opacity: 0.8;
+  margin-top: 48px;
+}
+
+/* ---- Box 4 ---- */
+.dad > div:nth-child(4){
+  width: 100%;
+  height: 565px;
+  background-color: rgba(175, 198, 245, 0.2);
+}
+.dad > div:nth-child(4) figure img{
+  width: 153px;
+  height: 224px;
+  object-fit: contain;
+  opacity: 0.8;
+  margin: 48px 0px;
+  margin-left: 30px;
+  margin-bottom: 32px;
+}
+.dad > div:nth-child(4) p{
+  height: 84px;  
+}
+
+/* ---box 5--- */
+.dad > div:nth-child(5){
+  width: 100%;
+  height: 788px;
+  background-color: #2543bd;
+}
+.dad > div:nth-child(5) h3{
+  margin-top: 0px;
+  height: 40px;
+  color: #ffffff;
+  position: relative;
+  top: 48px;
+}
+.dad > div:nth-child(5) p{
+  margin-top: 110px;
+  height: 28px;
+  color: #ffffff;
+}
+.dad > div:nth-child(5) mat-icon{
+  height: 64px;
+  width: 64px;
+  font-size: 64px;
+  color: #ffffff;
+  position: relative;
+  top: 38px;
+  left: 1px;
+}
+.dad > div:nth-child(5) mat-icon:nth-of-type(2){
+  top: 38px;
+}
+.dad > div:nth-child(5) p:nth-of-type(2),
+.dad > div:nth-child(5) p:nth-of-type(3),
+.dad > div:nth-child(5) p:nth-of-type(4){
+  width: 158px;
+  height: 56px;
+  margin-top: 38px;
+  margin-left: 85px;
+  height: 78px;
+}
+
+/* ---box 6--- */
+.dad > div:nth-child(6){
+  width: 100%;
+  height: 284px;
+  background-color: #ffffff;
+}
+.dad > div:nth-child(6) h3{
+  height: 170px;
+  width: 280px;
+  margin-left: 20px;
+  color: #00279c;
+}
+.dad > div:nth-child(6) button{
+  width: 136px;
+  height: 36px;
+  font-size: 13.8px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: 0.9px;
+  color: #ffffff;
+  background-color: #2543bd;
+  margin-top: 16px;
+}
+.dad > div:nth-child(7){
+  width: 100%;
+  height: 137px;
+  background-color: rgba(175, 198, 245, 0.2);
+}
+.dad > div:nth-child(7) p{
+  width: 310px;
+  height: 28px;
+  position: relative;
+  top: 18px;
+  left: -10px;
+  font-family: Roboto;
+  color: rgba(0, 0, 0, 0.6);
+
+}

@@ -1,130 +1,89 @@
 <div class="dad">
+
+	<!-- Box 1 -->
 	<div>
-		<mat-toolbar color="primary">
-			<mat-toolbar-row>
-
-				<button mat-button (click)="drawer.toggle()">
-					<figure><img src="favicon.ico" alt="logo"></figure>
-					<span>Logo</span>
-				</button>
-
-				<button mat-button (click)="drawer.toggle()">
-					<span>Home</span>
-				</button>
-
-				<button mat-button (click)="drawer.toggle()">
-					<span>Conociendonos</span>
-				</button>
-
-				<button mat-button (click)="drawer.toggle()"  class="float-xl-right">
-					<span>Ingresar</span>
-				</button>
-
-				<button mat-button (click)="drawer.toggle()"  class="float-xl-right">
-					<span>Comenzar</span>
-				</button>
-
-			</mat-toolbar-row>
+		<mat-toolbar>
+			<figure><img src="assets/images/logo/logo@3x.png" alt="logo"></figure>
 		</mat-toolbar>
+
+		<figure><img src="assets/images/landing/svg-land@3x.png" alt="land"></figure>
+
+		<h1><strong>Baja la cuota</strong> de tus créditos</h1>
+
+		<p>Vive tranquilo sabiendo que tienes la mejor tasa y condiciones comerciales</p>
+
+		<div>	
+			<button mat-flat-button color="primary"><span>Crear cuenta</span></button>
+			<button mat-stroked-button color="primary"><span>Iniciar sesión</span></button>
+		</div>
 	</div>
-	<div></div>
-	<div></div>
-	<div></div>
-	<div></div>
-	<div></div>
-	<div></div>
+
+	<!-- Box 2 -->
+	<div>
+		<h4>Recibirás ofertas de los bancos más reconocidos de Chile</h4>
+
+		<div class="slider-banks">
+			<button mat-icon-button>
+				<mat-icon>keyboard_arrow_left</mat-icon>
+			</button>
+			<button mat-icon-button>
+				<mat-icon>keyboard_arrow_right</mat-icon>	
+			</button>
+			<div>
+				<span>BCI</span>
+				<span>BBVA</span>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Box 3 -->
+	<div>
+		<figure><img src="assets/images/landing/simulacion-creditos@3x.png" alt="simulacion de crédito"></figure>
+		<h3>Consigue las mejores tasas</h3>
+		<p>No pierdas tiempo buscando oportunidades. Nosotros lo hacemos por ti.</p>
+	</div>
+
+	<!-- Box 4 -->
+	<div>
+		<figure><img src="assets/images/landing/sin-interrupciones@3x.png" alt="simulacion de crédito"></figure>
+		<h3>Rápido, fácil y sin spam</h3>
+		<p>El servicio es totalmente gratuito y nunca te enviaremos ofertas que no mejoren tus condiciones actuales.</p>
+	</div>
+
+	<!-- Box 5 -->
+	<div>
+		<h3>¿Cómo funciona?</h3>
+		<p>En 3 simples pasos</p>
+
+		<mat-icon>alarm</mat-icon>
+		<p>Te registras en sólo 5 minutos</p>
+
+		<mat-icon>error_outline</mat-icon>
+		<p>Te avisamos cuando puedas mejorar tus condiciones</p>
+
+		<mat-icon>money_off</mat-icon>
+		<p>Te ayudamos sin costo a realizar el cambio</p>
+		
+	</div>
+	
+	<!-- Box 6 -->
+	<div>
+		<h3>Estás a un paso de mejorar tu situación financiera</h3>
+		<button mat-flat-button color="primary"><span>Comenzar</span></button>
+	</div>
+
+	<!-- Box 7 -->
+	<div>
+		<mat-toolbar>
+			<figure><img src="assets/images/logo/logo@3x.png" alt="logo"></figure>
+		</mat-toolbar>
+
+		<p>© 2018  Todos los derechos reservados.</p>
+		<p>Hecho con amor por Finvox 💙</p>
+	</div>
 
 
 
 </div>
-
-
-
-
-<!--
-<mat-toolbar color="primary">
-	<mat-toolbar-row>
-		<span>Web aplication
-			<button mat-button (click)="drawer.toggle()">
-				<mat-icon>search</mat-icon>
-			</button>
-		</span>
-		<span class="example-spacer"></span>
-		<mat-icon class="example-icon"><a href="www.google.com" target="_blank">tab</a> </mat-icon>
-		<button mat-button [matMenuTriggerFor]="menu">
-			<mat-icon>view_headline</mat-icon>
-		</button>
-		<mat-menu #menu="matMenu">
-			<button mat-menu-item>Item 1</button>
-			<button mat-menu-item>Item 2</button>
-		</mat-menu>
-	</mat-toolbar-row>
-</mat-toolbar>
-
-
-<mat-drawer-container class="example-container" autosize>
-	<mat-drawer #drawer class="example-sidenav" mode="side">
-		<p>Auto-resizing sidenav</p>
-
-		<mat-form-field>
-			<mat-select placeholder="Favorite food">
-				<mat-option *ngFor="let p of productos" [value]="p.color">
-					{{p.text}}
-				</mat-option>
-			</mat-select>
-		</mat-form-field>
-
-		<br>
-
-		<mat-form-field>
-			<mat-select placeholder="Favorite food">
-				<mat-option *ngFor="let p of productos" [value]="p.color">
-					{{p.text}}
-				</mat-option>
-			</mat-select>
-		</mat-form-field>
-
-		<br>
-
-		<mat-form-field>
-			<mat-select placeholder="Favorite food">
-				<mat-option *ngFor="let p of productos" [value]="p.color">
-					{{p.text}}
-				</mat-option>
-			</mat-select>
-		</mat-form-field>
-
-		<br>
-
-		<mat-slide-toggle class="example-margin" [color]="'accent'" [checked]="true">
-			Solo perros lindos!
-		</mat-slide-toggle>
-
-	</mat-drawer>
-
-	<div class="example-sidenav-content">
-
-		<mat-card class="example-card" *ngFor="let p of productos">
-			<mat-card-header>
-				<div mat-card-avatar class="example-header-image"></div>
-				<mat-card-title>Shiba Inu</mat-card-title>
-				<mat-card-subtitle>Dog Breed</mat-card-subtitle>
-			</mat-card-header>
-			<img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-			<mat-card-content>
-				<p>
-					The Shiba Inu is the smallest
-				</p>
-			</mat-card-content>
-			<mat-card-actions>
-				<button mat-button>LIKE</button>
-				<button mat-button>SHARE</button>
-			</mat-card-actions>
-		</mat-card>
-
-
-	</div>
-
-</mat-drawer-container>
-
--->
